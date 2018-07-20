@@ -93,14 +93,17 @@ footer {
 	text-align: center;
 	padding: 40px;
 	margin-top: 30px;
+	position: fixed;
+	bottom: 0px;
+	width: 100%
 }
 
-.wrapper {
+.container {
 	width: 960px;
 	margin: 0 auto;
 }
 
-.inline-img {
+.bearbox {
 	float: left;
 	margin: 0 15px 15px 0;
 	border: 1px solid #777777;
@@ -108,7 +111,6 @@ footer {
 
 .portfolio-item {
 	position: relative;
-	/*background-color: rgba(0,0,0, .5);*/
 	margin-bottom: 20px;
 	width: 45%;
 	float: left;
@@ -132,9 +134,10 @@ footer {
 .clearfix {
 	display: block;
 	clear: both;
+	margin-bottom: 125px;
 }
 
-#left-column {
+#section {
 	background: white;
 	padding: 25px;
 	border: 2px solid #ccc;
@@ -142,7 +145,7 @@ footer {
 	float: left;
 }
 
-#left-column h2 {
+#section h2 {
 	font-size: 24px;
 	padding: 15px 0;
 	margin-bottom: 20px;
